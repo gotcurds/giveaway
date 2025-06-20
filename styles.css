@@ -1,0 +1,10 @@
+/* Basic CSS rule structure */
+
+
+
+/* Background Image */
+CSS
+selector {
+    background-image: url('camo.jpg');
+    background-repeat: no-repeat;
+}
