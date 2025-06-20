@@ -3,8 +3,8 @@
 
 
 /* Background Image */
-CSS
-selector {
-    background-image: url('camo.jpg');
-    background-repeat: no-repeat;
+body {
+    background-image: url(camo.jpg);
+    background-repeat: repeat;
+    background-position: center;
 }
