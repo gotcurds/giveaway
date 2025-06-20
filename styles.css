@@ -35,3 +35,37 @@ body {
     text-transform: uppercase;
     color: rgba(38, 34, 249, 0.804);
 }
+
+.form-wrap{
+    margin-top: 30px;
+}
+
+.form-group .input_wrap{
+    margin-bottom: 30px;
+}
+
+.form-wrap .input_wrap label{
+    display: block;
+    margin-bottom: 1px;
+    color: rgb(74, 74, 74);
+}
+
+.form_wrap .input_grp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 3px;
+    color: rgb(74, 74, 74);
+}
+
+.form-group legend{
+    color: blueviolet;
+}
+
+.form-group .radio-group label{
+    display: inline;
+    color: rgb(64, 125, 248);
+}

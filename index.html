@@ -18,6 +18,13 @@
 
         
         <form action="/submit" method="POST" nonvaildate>
+                <div class="form-wrap">
+                    <div class="input_grp">
+                        <div class="input_wrap">
+                                <label for="fname">Firs Name</label>
+                                <input type="text" id="fname">
+                        </div>
+                 
             <!-- Form content here -->
         
                 <p>Get ready for an awesome opportunity! To celebrate the launch of our new forum, we're hosting a fantastic giveaway with some great prizes up for grabs. Entering is super simple: just fill out our quick entry form, and you'll automatically be entered to win! We've lined up exciting goodies like a top-tier gaming headset or even a brand-new console, plus more surprises. Don't miss your chance to win and become part of our growing community!</p>
@@ -29,17 +36,21 @@
         </form>
             <div>
                 <!-- Text input -->
-                 <div class="form-group">
-                    <label for="first name">First Name</label>
-                    <input type="text"
-                    name="first name"
-                    required
-                    minlength="3"
-                    maxlength="25"
-                    pattern="[A-Za-z0-9_]+"
-                    aria-describedby="first name-help">
+                 <div class="form-wrap">
+                    <div class="input_grp">
+                        <div class="input_wrap">
+                            
+                        <label for="first name">First Name</label>
+                        <input type="text"
+                        name="first name"
+                        required
+                        minlength="3"
+                        maxlength="25"
+                        pattern="[A-Za-z0-9_]+"
+                        aria-describedby="first name-help">
                  </div> 
                 <div>
+                    <div class="input_wrap">
                     <label for="last name">Last Name</label>
                     <input type="text"
                     name="last name"
@@ -61,7 +72,7 @@
                     </div>
 
             <!-- Select Dropdown -->
-             <div class="form group">
+             <div class="form-group">
                 <label for="gaming system">Gaming System</label>
                     <select name="wild" id="wild"></required>
                     <option value="system">Select A System</option>
