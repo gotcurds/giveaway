@@ -50,10 +50,46 @@ body {
     color: rgb(74, 74, 74);
 }
 
-.form_wrap .input_grp{
-    display: flex;
+.form-wrap .input_grp{
+    display: inline-block;
     justify-content: space-between;
 }
+
+
+.form-wrap .input_grp input[type="text"]{
+    width: 150px;
+}
+
+.form-wrap input[type="text"]{
+    width: 100%;
+    border-radius: 35px;
+    border: 1px solid #9597a6;
+    padding: 5px;
+    outline: none;
+}
+
+.form-wrap input[type="text"]:focus{
+    border-color:  rgb(156, 204, 246);
+    border-style: groove;
+}
+
+.form-wrap .input_grp input[type="number"]{
+    width: 50px;
+}
+
+.form-wrap input[type="number"]{
+    width: 100%;
+    border-radius: 35px;
+    border: 1px solid #9597a6;
+    padding: 5px;
+    outline: none;
+}
+
+.form-wrap input[type="number"]:focus{
+    border-color:  rgb(156, 204, 246);
+    border-style: groove;
+}
+
 
 .form-group label{
     display: block;
