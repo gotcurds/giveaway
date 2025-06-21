@@ -22,11 +22,12 @@ body {
     align-items: center;
 }
 
+/* makes it a purple page */
 .registration_form{
     background: #bdc0d7; 
     padding: 25px;
     border-radius: 5px;
-    width: 500px;
+    width: 700px;
 }
 
 .registration_form .title{
@@ -36,23 +37,65 @@ body {
     color: rgba(38, 34, 249, 0.804);
 }
 
+#ps5 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    padding-top: 20px;
+    padding-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.ps2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.ps3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 75px;
+    width: 50%;
+}
+
+
 .form-wrap{
     margin-top: 30px;
 }
+
 
 .form-group .input_wrap{
     margin-bottom: 30px;
 }
 
+
 .form-wrap .input_wrap label{
     display: block;
     margin-bottom: 1px;
-    color: rgb(74, 74, 74);
+    color: rgb(75, 75, 75);
 }
 
-.form-wrap .input_grp{
-    display: inline-block;
-    justify-content: space-between;
+
+
+#first {
+    display: inline-flex;
+}
+
+#last {
+    display: inline-flexbox;
 }
 
 
@@ -94,9 +137,19 @@ body {
 .form-group label{
     display: block;
     margin-bottom: 3px;
-    color: rgb(74, 74, 74);
+    color: rgb(79, 79, 79);
 }
 
+.form-group select{
+    width: 20%;
+    border-radius: 50px;
+    border: 50px soild #9597a6;
+    padding: 5px;
+}
+
+
+
+/* this is the radio buttons */
 .form-group legend{
     color: blueviolet;
 }

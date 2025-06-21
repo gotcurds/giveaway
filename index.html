@@ -29,11 +29,11 @@
             <!-- Form content here -->
         
                 <p>Get ready for an awesome opportunity! To celebrate the launch of our new forum, we're hosting a fantastic giveaway with some great prizes up for grabs. Entering is super simple: just fill out our quick entry form, and you'll automatically be entered to win! We've lined up exciting goodies like a top-tier gaming headset or even a brand-new console, plus more surprises. Don't miss your chance to win and become part of our growing community!</p>
-            <h2>Win A PS5!</h2>
-                <img src="ps5.jpg" alt="ps5.image">
-            <h2>Win A Steelseries Headset!</h2>
-            <img src="headset.jpg" alt="headset.image">
-
+            <h2 id="ps5">Win A PS5!</h2>
+                <img src="ps5.jpg" alt="ps5.image" class="ps2">
+                    <h2 id="ps5">Win A Steelseries Headset!</h2>
+                     <img id="head" src="headset.jpg" alt="headset.image" class="ps3">
+                        
         </form>
             <div>
                 <!-- Text input -->
@@ -41,7 +41,7 @@
                     <div class="input_grp">
                         <div class="input_wrap">
                             
-                        <label for="first name">First Name</label>
+                        <label id="first" for="first name">First Name</label>
                         <input type="text"
                         name="first name"
                         required
@@ -52,7 +52,7 @@
                  </div> 
                 <div>
                     <div class="input_wrap">
-                    <label for="last name">Last Name</label>
+                    <label id="last" for="last name">Last Name</label>
                     <input type="text"
                     name="last name"
                     required
@@ -74,7 +74,8 @@
 
             <!-- Select Dropdown -->
              <div class="form-group">
-                <label for="gaming system">Gaming System</label>
+                                <div class="input_drop">
+                <label for="gaming-system">Gaming System</label>
                     <select name="wild" id="wild"></required>
                     <option value="system">Select A System</option>
                     <optgroup label="Console">
