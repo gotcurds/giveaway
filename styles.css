@@ -77,21 +77,26 @@ body {
 }
 
 
-.form-group .input_wrap{
-    margin-bottom: 30px;
+
+
+
+.form-wrap .input_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    color: rgb(75, 75, 75);
 }
 
-
-.form-wrap .input_wrap label{
-    display: block;
-    margin-bottom: 1px;
+.input_wraps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(75, 75, 75);
 }
 
 
-
 #first {
-    display: inline-flex;
+    display: inline;
 }
 
 #last {
