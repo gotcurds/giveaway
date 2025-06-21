@@ -22,37 +22,107 @@ body {
     align-items: center;
 }
 
+
+
 /* makes it a purple page */
 .registration_form{
-    background: #bdc0d7; 
+    background: hsl(233, 25%, 79%); 
+    background-size: contain;
+    background-blend-mode: ;
     padding: 25px;
     border-radius: 5px;
     width: 700px;
+    background-image: url(img_0.png);
+}
+
+#stinks {   
+     padding: 10px;
+    border-radius: 30px;
+    width:650px;
+    height: 50;
+    text-align: center;
+    margin-left: 1%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    Background-color:  hsl(233, 25%, 79%); 
+}
+/* body text */
+.main   {
+    color: rgba(73, 73, 73, 0.995);   
 }
 
 .registration_form .title{
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
-    color: rgba(38, 34, 249, 0.804);
+     color: rgb(67, 106, 109);
 }
 
-#ps5 {
-    padding-top: 20px;
-    padding-bottom: 5px;
+.win {
+    color: #024a75;
+}
+
+.set {
+    color: #024a75;
+}
+#give   {
+    padding: 1px;
+    border-radius: 30px;
+    width:450px;
+    height: 50;
+    text-align: center;
+    margin-left: 13%;
     display: flex;
+    align-items:center;
     justify-content: center;
-    align-items: center;
+    background-color:  hsl(233, 25%, 79%);
+}
+
+
+#ps5 {
+     padding: 1px;
+    border-radius: 30px;
+    width:140px;
+    height: 50;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:  hsl(233, 25%, 79%)
+}
+
+#ps6 {
+     padding: 1px;
+    border-radius: 30px;
+    width:320px;
+    height: 50;
+    text-align: center;
+    margin-left: 25%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:  hsl(233, 25%, 79%)
 }
 
 #head {
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#controller {
+    padding-top: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 .ps2 {
@@ -156,12 +226,12 @@ body {
 
 /* this is the radio buttons */
 .form-group legend{
-    color: blueviolet;
+    color: rgb(79, 79, 79);
 }
 
 .form-group .radio-group label{
     display: inline;
-    color: rgb(64, 125, 248);
+    color: rgb(79, 79, 79);
 }
 
 #age {
@@ -190,15 +260,59 @@ body {
 }
 
 #how  {
+    display: flex-inline;
+    margin-left: center;
+    margin-right: center;
+    padding: 1px;
+    border-radius: 30px;
+    width:220px;
+    height: 50;
+    text-align: center;
+    margin-left: 35%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    align-items:center;
+    justify-content: center;
+    background-color:  hsl(233, 25%, 79%)
 }
 
-#button {
+#social {
+      padding: 1px;
+    border-radius: 30px;
+    width:120px;
+    height: 20px;
+    text-align: center;
+    margin-left: 42%;
     display: flex;
-    align-items: center;
+    align-items:center;
+    margin-top: 3px;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    background-color:  hsl(233, 25%, 79%)
+}
+
+#friend {
+    padding: 1px;
+    border-radius: 30px;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 42%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:  hsl(233, 25%, 79%)
+}
+
+#butt   {
+    padding: 1px;
+    border-radius: 30px;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 42.5%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:  hsl(233, 25%, 79%)
 }
