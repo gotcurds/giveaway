@@ -95,7 +95,7 @@ body {
 }
 
 #last {
-    display: inline-flexbox;
+    display: inline-flex;
 }
 
 
@@ -157,4 +157,43 @@ body {
 .form-group .radio-group label{
     display: inline;
     color: rgb(64, 125, 248);
+}
+
+#age {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.input_drop {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#how  {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
