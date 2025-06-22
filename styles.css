@@ -15,7 +15,7 @@ body {
     background-position: center;
 }
 
-.wrapper{
+.wrapper {
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -34,6 +34,8 @@ body {
     width: 700px;
     background-image: url(img_0.png);
 }
+
+
 
 #stinks {   
      padding: 10px;
@@ -66,6 +68,7 @@ body {
 .set {
     color: #024a75;
 }
+
 #give   {
     padding: 1px;
     border-radius: 30px;
@@ -241,22 +244,29 @@ body {
 }
 
 #sys {
-    display: flex;
+    display: flex-inline;
     align-items: center;
     justify-content: center;
 }
 
 .mail_group {
-    display: flex;
+    display: flex-inline;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    margin-left: -5%;
 }
 
 .input_drop {
-    display: block;
+    display: flex-inline;
     align-items: center;
     justify-content: center;
+    margin-left: 42%;
+}
+
+#e  {
+    display: flex;
+    margin-left: -75%;
 }
 
 #how  {
@@ -268,7 +278,7 @@ body {
     width:220px;
     height: 50;
     text-align: center;
-    margin-left: 35%;
+    margin-left: -15%;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -281,7 +291,7 @@ body {
     width:120px;
     height: 20px;
     text-align: center;
-    margin-left: 42%;
+    margin-left: -5%;
     display: flex;
     align-items:center;
     margin-top: 3px;
@@ -296,7 +306,7 @@ body {
     height: 20px;
     text-align: center;
     margin-top: 3px;
-    margin-left: 42%;
+    margin-left: -5%;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -310,7 +320,7 @@ body {
     height: 20px;
     text-align: center;
     margin-top: 3px;
-    margin-left: 42.5%;
+    margin-left: -5%;
     display: flex;
     align-items:center;
     justify-content: center;
