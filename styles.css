@@ -357,6 +357,10 @@ body {
     background-color: rgb(67, 106, 109);
     margin-left: -5%;
 }
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 #sub   {
     color: rgb(208, 210, 255);
     font-size: large;
@@ -365,14 +369,29 @@ body {
 .re {
     display: inline-block;
     padding: 5px 10px;
+    margin-top: 5px;
     border: none;
     border-radius: 4px;
     cursor: pointer
     tranistion all 0.3s ease;
     background-color: rgb(67, 106, 109);
+    
 }
+
+.re:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 #reset {
      color: rgb(208, 210, 255);
     font-size: large;
+}
+
+#comment {
+    display: block;
+    margin-left: -45%;
+    border-radius: 10px;
+    padding: 20px 150px;
+    margin-top: 5px;
 }
