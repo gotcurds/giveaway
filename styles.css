@@ -345,3 +345,34 @@ body {
     display: inline;
     background-color:  hsl(233, 25%, 79%)
 }
+
+/* BUTTON? */
+.btn    {
+    display: inline-block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer
+    tranistion all 0.3s ease;
+    background-color: rgb(67, 106, 109);
+    margin-left: -5%;
+}
+#sub   {
+    color: rgb(208, 210, 255);
+    font-size: large;
+}
+
+.re {
+    display: inline-block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer
+    tranistion all 0.3s ease;
+    background-color: rgb(67, 106, 109);
+}
+
+#reset {
+     color: rgb(208, 210, 255);
+    font-size: large;
+}
