@@ -15,6 +15,18 @@ body {
     background-position: center;
 }
 
+form2  {
+    background-color: hsl(233, 25%, 79%);
+    display: flex;
+    border-radius: 30px;
+    width: 480px;
+    justify-self: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 12%;
+    padding: auto;
+}
+
 .wrapper {
     min-height: 100vh;
     display: flex;
@@ -22,7 +34,12 @@ body {
     align-items: center;
 }
 
-
+.input_grp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 /* makes it a purple page */
 .registration_form{
@@ -154,25 +171,42 @@ body {
 
 .form-wrap .input_wrap {
     display: flex;
-    justify-content: center;
-    align-items: right;
+    flex-flow: row;
+    align-items: flex-start;
     color: rgb(75, 75, 75);
+}
+
+.iput_wraps input[type="text"]{
+    display: flex;
+    flex-flow: row;
+    align-content: flex-start;
+    align-items: baseline;
+    color: #024a75;
 }
 
 .input_wraps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+     display: flex;
+     flex-flow: row wrap;
+    align-self: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    box-sizing: border-box;
     color: rgb(75, 75, 75);
 }
 
-
-#first {
-    display: inline;
+#frst {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    color: rgb(75, 75, 75);
+    
 }
 
-#last {
-    display: inline-flex;
+#lst {
+     display: flex;
+    flex-wrap: column;
+    align-self: flex-start;
+    color: black;
 }
 
 
@@ -243,9 +277,13 @@ body {
 }
 
 #sys {
-    display: flex-inline;
+    display: flex;
     align-items: center;
     justify-content: center;
+    size: 500px;
+    width: 125px;
+    margin-left: -5%;
+    margin-top: 5px;
 }
 
 .mail_group {
@@ -254,6 +292,7 @@ body {
     justify-content: center;
     border-radius: 50px;
     margin-left: -5%;
+    margin-top: 5px;
 }
 
 .input_drop {
@@ -277,7 +316,7 @@ body {
     width:220px;
     height: 50;
     text-align: center;
-    margin-left: -15%;
+    margin-left: -25%;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -332,7 +371,8 @@ body {
         height: 10px;
         align-self: self-start;
         display: inline;
-        margin-left: -30%;
+        margin-left: -50%;
+        margin-top: 5px;
 }
 
 #code {  
@@ -348,14 +388,17 @@ body {
 
 /* BUTTON? */
 .btn    {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 5px 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer
     tranistion all 0.3s ease;
     background-color: rgb(67, 106, 109);
-    margin-left: -5%;
+    margin: center;
+    margin-top: 5px;
 }
 .btn:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -367,7 +410,9 @@ body {
 }
 
 .re {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 5px 10px;
     margin-top: 5px;
     border: none;
@@ -386,12 +431,14 @@ body {
 #reset {
      color: rgb(208, 210, 255);
     font-size: large;
+    margin-left: -5%;
 }
 
 #comment {
-    display: block;
-    margin-left: -45%;
+    display: flex;
+    margin-left: -71.5%;
     border-radius: 10px;
     padding: 20px 150px;
     margin-top: 5px;
+    margin-bottom: 5px;
 }

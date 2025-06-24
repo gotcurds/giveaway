@@ -36,31 +36,33 @@
                      <img id="head" src="headset.jpg" alt="headset.image" class="ps3">
                         
         </form>
+
+        <form2>
             <div>
                 <!-- Text input -->
-                 <div class="form-wrap">
+                <div class="form-wrap">
                     <div class="input_grp">
-                        <div class="input_wrap">
-                            
-                        <label id="first" for="first name">First Name</label>
+                        <div class="input_wraps">
+                            <label id="first" for="first name">First Name</label>
+                            <input type="text"
+                            name="first name"
+                            required
+                            minlength="3"
+                            maxlength="25"
+                            pattern="[A-Za-z0-9_]+"
+                            aria-describedby="first name-help">
+                       </div> 
+                
+                    <div class="input_wraps">
+                        <label id="first" for="last name">Last Name</label>
                         <input type="text"
-                        name="first name"
+                        name="last name"
                         required
                         minlength="3"
                         maxlength="25"
                         pattern="[A-Za-z0-9_]+"
-                        aria-describedby="first name-help">
-                 </div> 
-                <div>
-                    <div class="input_wraps">
-                    <label id="last" for="last name">Last Name</label>
-                    <input type="text"
-                    name="last name"
-                    required
-                    minlength="3"
-                    maxlength="25"
-                    pattern="[A-Za-z0-9_]+"
-                    aria-describedby="last name-help">
+                        aria-describedby="last name-help">
+                    </div>
                 </div>
 
                 <div>
@@ -74,22 +76,22 @@
                     </div>
 
             <!-- Select Dropdown -->
-             <div class="form-group">
-                                <div class="input_drop">
-                <label id="sys" for="gaming-system">Gaming System</label>
-                    <select id="sys" name="wild" id="wild"></required>
-                    <option id="sys" value="system">Select A System</option>
-                    <optgroup id="sys" label="Console">
-                        <option value="xbox">Xbox</option>
-                        <option value="playstation">Playstation</option>
-                        <option value="steamdeck">Steam Deck</option>
-                        <option value="nintendo">Nintendo</option>
-                        <option value="asus rog">Asus ROG</option>
-                        <optgroup label="Other">
-                        <option value="desktop">Desktop</option>
-                        <option value="laptop">Laptop</option>
+            <div class="form-group">
+                <div class="input_drop">
+                                    <label id="sys" for="gaming-system">Gaming System</label>
+                                        <select id="sys" name="wild" id="wild"></required>
+                                        <option id="sys" value="system">Select A System</option>
+                                        <optgroup id="sys" label="Console">
+                                            <option value="xbox">Xbox</option>
+                                            <option value="playstation">Playstation</option>
+                                            <option value="steamdeck">Steam Deck</option>
+                                            <option value="nintendo">Nintendo</option>
+                                            <option value="asus rog">Asus ROG</option>
+                                            <optgroup label="Other">
+                                            <option value="desktop">Desktop</option>
+                                            <option value="laptop">Laptop</option>
                     </optgroup>
-                    </div>
+            </div>
                 </select>
                 
                     <!-- Email Input -->
@@ -136,6 +138,7 @@
                                 
                                     <textarea name="extra" id="comment" maxlength="1000" placeholder="Any questions or comments type here!"></textarea>
              </div>
+          </form2>
     </main>
     
 </body>
