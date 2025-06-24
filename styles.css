@@ -452,3 +452,31 @@ form2  {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.haus {
+    padding: 10px;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color:  hsl(233, 25%, 79%)
+}
+
+#con {
+    color:  #024a75;
+}
+
+.fot :hover {
+    text-decoration: underline;
+    opacity: 0.9;
+    color: #000;
+}
+
+.thanks {
+    background-color: #9597a6;
+    padding: 10px;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}

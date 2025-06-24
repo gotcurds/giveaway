@@ -18,7 +18,7 @@
 
         
         
-        <form action="/submit" method="POST" nonvaildate>
+        
                 
             <!-- this is how to have wrap set up -->
             <div class="form-wrap">
@@ -51,6 +51,7 @@ Entering is super simple: just fill out our quick entry form, and you'll automat
         </form>
 
         <form2>
+            <form action="thankyou.html" method="get">
             <div>
                 <!-- Text input -->
                 <div class="form-wrap">
@@ -144,7 +145,10 @@ Entering is super simple: just fill out our quick entry form, and you'll automat
                                 </div>
 
                     <!-- Submit button -->
-                                <button class="btn" id="sub" type="button"><i>Submit!</i></button>
+                     
+                                <form action="thankyou.html" method="get" required>
+                                <button class="btn" id="sub" type="submit"><i>Submit!</i></button>
+                                </form>
  
                                 <!-- reset button -->
                                     <button class="re" id="reset" type="reset"><i>Clear form!</i></button>
@@ -155,6 +159,17 @@ Entering is super simple: just fill out our quick entry form, and you'll automat
 
                 
     </main>
+
+    <footer class="haus">
+        <div class="fot">
+        <a href="https://dot.cards/9dbb8e87-5621-4ed9-a055-014591ff6606" target="_blank" id="con">
+            Contact Info Here!
+        </a>
+        </div>
+        
+    </footer>
     
 </body>
+
+
 </html>
